@@ -12,8 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('mesas', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id(); // Cria o campo 'id' como INT, PRIMARY KEY e AUTO_INCREMENT
+            $table->integer('numero_mesa')->unique(); // Cria o campo 'numero_mesa' como INT (adicionado o índice único comum para mesas)
+            $table->integer('capacidade'); // Cria o campo 'capacidade' como INT
+            $table->string('status', 20); // Cria o campo 'status' como VARCHAR(20)
+
+            $table->timestamps(); // Mantém o padrão do Laravel (created_at e updated_at)
         });
     }
 
@@ -24,4 +28,5 @@ return new class extends Migration
     {
         Schema::dropIfExists('mesas');
     }
+    
 };

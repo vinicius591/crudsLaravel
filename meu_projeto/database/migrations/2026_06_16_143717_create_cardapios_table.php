@@ -11,9 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('cardapios', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+        Schema::create('cardapio', function (Blueprint $table) {
+            $table->id(); // Cria o campo 'id' como INT, PRIMARY KEY e AUTO_INCREMENT
+            $table->string('nome', 255); // Cria o campo 'nome' como VARCHAR(255)
+            $table->integer('preco'); // Cria o campo 'preco' como INT
+            $table->string('disponivel', 255); // Cria o campo 'disponivel' como VARCHAR(255)
+            
+            // Se você quiser manter o padrão do Laravel com os campos 'created_at' e 'updated_at'
+            $table->timestamps(); 
         });
     }
 
