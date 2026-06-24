@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('cardapio', function (Blueprint $table) {
+        Schema::create('cardapios', function (Blueprint $table) {
             $table->id(); // Cria o campo 'id' como INT, PRIMARY KEY e AUTO_INCREMENT
             $table->string('nome', 255); // Cria o campo 'nome' como VARCHAR(255)
             $table->integer('preco'); // Cria o campo 'preco' como INT
