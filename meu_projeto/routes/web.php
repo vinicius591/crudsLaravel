@@ -2,7 +2,13 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CardapioController;
+use App\Http\Controllers\MesasController;
+use App\Http\Controllers\PedidosController;
 
+Route::resource('cardapios', CardapioController::class);
+Route::resource('mesas', MesasController::class);
+Route::resource('pedidos', PedidosController::class);
 
 Route::get('/', function () {
     return view('dashboard');

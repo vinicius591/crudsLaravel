@@ -6,5 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pedidos extends Model
 {
-    //
+       protected $fillable = ['mesa', 'item', 'status'];
 }
+

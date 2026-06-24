@@ -6,5 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Mesas extends Model
 {
-    //
+       protected $fillable = ['numero_mesa', 'capacidade', 'status'];
 }
+
