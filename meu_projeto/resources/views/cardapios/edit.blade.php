@@ -58,7 +58,7 @@
                             Cancelar
                         </button>
                     </a>
-                    <button type="submit" class="inline-flex justify-center rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 px-6 py-3 text-sm font-bold text-white shadow-md hover:from-amber-600 hover:to-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-200 transition-all duration-150 transform active:scale-95">
+                    <button type="submit" class="inline-flex justify-center rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 px-6 py-3 text-sm font-bold text-gray-500 shadow-md hover:from-amber-600 hover:to-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-200 transition-all duration-150 transform active:scale-95">
                         Atualizar Item
                     </button>
                 </div>   

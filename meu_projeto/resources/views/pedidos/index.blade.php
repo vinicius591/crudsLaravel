@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="mt-4 sm:mt-0">
-                    <a href="{{ route('pedidos.create') }}" class="inline-flex items-center justify-center px-4 py-2.5 border border-transparent rounded-lg text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition duration-150 ease-in-out">
+                    <a href="{{ route('pedidos.create') }}" class="inline-flex items-center justify-center px-4 py-2.5 border border-transparent rounded-lg text-sm font-medium text-gray-500 bg-blue-600 hover:bg-blue-700 shadow-sm transition duration-150 ease-in-out">
                         <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
                         </svg>
