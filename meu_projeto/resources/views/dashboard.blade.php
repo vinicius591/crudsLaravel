@@ -27,9 +27,9 @@
                     Cardápio
                 </a>
 
-                <a href="{{ url('/mesas') }}" class="flex items-center px-4 py-3 text-sm font-medium rounded-xl transition duration-200 {{ request()->is('mesas*') ? 'bg-indigo-50 text-indigo-700 font-semibold' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-950' }}">
-                    <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2H6a2 2 0 01-2-2v-4zM14 16a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2h-2a2 2 0 01-2-2v-4z"></path>
+                <a href="{{ url('/mesas') }}" class="flex items-center px-4 py-3 text-sm font-medium rounded-xl transition duration-200 {{ request()->is('pedidos*') ? 'bg-rose-50 text-rose-700 font-semibold' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-950' }}">
+                    <svg class="w-5 h-5 mr-3 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
                     </svg>
                     Mesas
                 </a>
@@ -74,7 +74,7 @@
                             <h3 class="text-lg font-bold text-slate-900 mb-1.5">Cardápio</h3>
                             <p class="text-sm text-slate-500 leading-relaxed">Configure os pratos ativos, preços e controle de estoque de forma dinâmica.</p>
                         </div>
-                        <div class="mt-6 text-sm font-semibold text-orange-600 group-hover:text-orange-700 flex items-center">
+                        <div class="mt-6 text-sm font-semibold text-indigo-600 group-hover:text-orange-700 flex items-center">
                             <span>Acessar módulo</span>
                             <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -92,7 +92,7 @@
                             <h3 class="text-lg font-bold text-slate-900 mb-1.5">Mesas</h3>
                             <p class="text-sm text-slate-500 leading-relaxed">Gerencie o mapa de mesas do salão, capacidades e status de ocupação.</p>
                         </div>
-                        <div class="mt-6 text-sm font-semibold text-indigo-600 group-hover:text-indigo-700 flex items-center">
+                        <div class="mt-6 text-sm font-semibold text-indigo-600 group-hover:text-orange-700 flex items-center">
                             <span>Acessar módulo</span>
                             <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -110,7 +110,7 @@
                             <h3 class="text-lg font-bold text-slate-900 mb-1.5">Pedidos</h3>
                             <p class="text-sm text-slate-500 leading-relaxed">Monitore as comandas enviadas para a cozinha e o fluxo de preparo em tempo real.</p>
                         </div>
-                        <div class="mt-6 text-sm font-semibold text-rose-600 group-hover:text-rose-700 flex items-center">
+                        <div class="mt-6 text-sm font-semibold text-indigo-600 group-hover:text-orange-700 flex items-center">
                             <span>Acessar módulo</span>
                             <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
