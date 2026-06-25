@@ -33,7 +33,7 @@ services:
   # Banco de Dados (MySQL)
   db:
     image: mysql:8.0
-    container_name: laravel-db
+    container_name: laraveltrabalho
     restart: unless-stopped
     ports:
       - "33061:3306"
